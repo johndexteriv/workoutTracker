@@ -1,2 +1,4 @@
 const router = require("express").Router();
-const Transaction = require("../models/workouts.js");
+const Workout = require("../models/workout.js");
+
+module.exports = router;
