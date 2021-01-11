@@ -15,10 +15,6 @@ const workoutSchema = new Schema({
 	distance: Number,
 });
 
-const Workout = mongoose.model("Workout", workoutSchema);
-// const Resistance = mongoose.model("Resistance", resistanceSchema);
-// const Cardio = mongoose.model("Cardio", cardioSchema);
+var Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;
-// module.exports = Resistance;
-// module.exports = Cardio;

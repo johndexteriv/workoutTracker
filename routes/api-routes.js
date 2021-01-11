@@ -3,6 +3,16 @@ const Workout = require("../models/workoutModel.js");
 
 module.exports = router;
 
+router.post("/api/addExercise", ({ body }, res) => {
+	Workout.create([body], (err, result) => {
+		if (err) {
+			res.json(err);
+		} else {
+			res.json(result);
+		}
+	});
+});
+
 // router.get("/exercise", (req, res) => {
 // 	Workout.find({}, (err, data) => {
 // 		if (err) {
