@@ -20,7 +20,9 @@ router.get("/api/workouts/range", (req, res) => {
 		} else {
 			return res.json(data);
 		}
-	}).limit(7);
+	})
+		.limit(7)
+		.sort({ day: -1 });
 });
 
 router.post("/api/workouts", ({ body }, res) => {
