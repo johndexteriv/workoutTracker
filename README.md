@@ -21,3 +21,24 @@ The user should be able to:
 - View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
 
 - View the total duration of each workout from the past seven workouts on the `stats` page.
+
+## Built With
+
+- [NodeJS](https://www.nodejs.org/en/)
+- [ExpressJS](https://www.expressjs.com/)
+- [MongoDb](https://www.mongodb.com/)
+- [Mongoose](https://www.mongoosejs.com/)
+
+## Deployed On
+
+- [Heroku](https://www.heroku.com/)
+
+## Author
+
+- [**Dexter Garner**](https://github.com/johndexteriv)
+
+## License
+
+This project is licensed under the MIT License.
+
+![WorkoutHome](/public/assets/img/workouthome.png)
