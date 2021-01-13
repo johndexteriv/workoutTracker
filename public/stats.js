@@ -22,7 +22,8 @@ function generatePalette() {
 }
 
 function populateChart(data) {
-	console.log("data ", data);
+	// Example of reduce to reference later
+	// console.log("data ", data);
 	// const nums = [1, 2, 3];
 
 	// const count = nums.reduce((total, number) => {
@@ -31,14 +32,15 @@ function populateChart(data) {
 	// 	return total + number;
 	// }, 0);
 
-	console.log("total ", count);
+	// console.log("total ", count);
 	let durations = data.map((workout) => {
 		const duration = workout.exercises.reduce((total, ex) => {
 			return total + ex.duration;
 		}, 0);
-
 		return duration;
 	});
+
+	console.log("these are the total durations", durations);
 	let pounds = calculateTotalWeight(data);
 	let workouts = workoutNames(data);
 	const colors = generatePalette();
