@@ -41,4 +41,13 @@ The user should be able to:
 
 This project is licensed under the MIT License.
 
+## Repository and Deployed Application
+
+- [GitHub Repo](https://github.com/johndexteriv/workoutTracker)
+- [Deployed Applicatin](https://jdgworkouttracker.herokuapp.com/)
+
 ![WorkoutHome](/public/assets/img/workouthome.png)
+
+![AddWorkout](/public/assets/img/addworkout.png)
+
+![WorkoutStats](/public/assets/img/workoutstats.png)
